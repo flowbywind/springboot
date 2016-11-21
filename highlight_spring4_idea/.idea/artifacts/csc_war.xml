@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="csc:war">
+    <output-path>D:/Web/csc/csc_v1/csc_4-1-41_BRANCH/target</output-path>
+    <root id="archive" name="bp_csc_union_vip.war">
+      <element id="artifact" artifact-name="csc:war exploded" />
+    </root>
+  </artifact>
+</component>
