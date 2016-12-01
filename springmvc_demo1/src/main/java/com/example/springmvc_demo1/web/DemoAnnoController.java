@@ -43,4 +43,9 @@ public class DemoAnnoController {
         return "url:"+request.getRequestURL()+" can access";
     }
 
+    @RequestMapping(value="/getParam",produces = "text/plain;charset=UTF-8")
+    @ResponseBody
+    public String getParam(String param){
+        return param;
+    }
 }
